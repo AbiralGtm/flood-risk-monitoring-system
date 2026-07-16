@@ -1,0 +1,1399 @@
+{
+  "count": 9223372036854775807,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 26864823,
+      "createdOn": "2026-07-12T00:00:14.960630+05:45",
+      "title": "Rampur_AWS",
+      "basin": "Narayani",
+      "measuredOn": "2026-07-12T00:00:14.943814+05:45",
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          84.34852,
+          27.654593
+        ]
+      },
+      "averages": [
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 1
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 3
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 6
+        },
+        {
+          "value": 1.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 12
+        },
+        {
+          "value": 2.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 24
+        }
+      ],
+      "status": "BELOW WARNING LEVEL",
+      "station": 167
+    },
+    {
+      "id": 26865218,
+      "createdOn": "2026-07-12T01:00:13.728669+05:45",
+      "title": "Rampur_AWS",
+      "basin": "Narayani",
+      "measuredOn": "2026-07-12T01:00:13.711507+05:45",
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          84.34852,
+          27.654593
+        ]
+      },
+      "averages": [
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 1
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 3
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 6
+        },
+        {
+          "value": 1.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 12
+        },
+        {
+          "value": 2.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 24
+        }
+      ],
+      "status": "BELOW WARNING LEVEL",
+      "station": 167
+    },
+    {
+      "id": 26865541,
+      "createdOn": "2026-07-12T02:00:15.421850+05:45",
+      "title": "Rampur_AWS",
+      "basin": "Narayani",
+      "measuredOn": "2026-07-12T02:00:15.404728+05:45",
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          84.34852,
+          27.654593
+        ]
+      },
+      "averages": [
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 1
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 3
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 6
+        },
+        {
+          "value": 1.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 12
+        },
+        {
+          "value": 2.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 24
+        }
+      ],
+      "status": "BELOW WARNING LEVEL",
+      "station": 167
+    },
+    {
+      "id": 26865864,
+      "createdOn": "2026-07-12T03:00:14.806314+05:45",
+      "title": "Rampur_AWS",
+      "basin": "Narayani",
+      "measuredOn": "2026-07-12T03:00:14.789488+05:45",
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          84.34852,
+          27.654593
+        ]
+      },
+      "averages": [
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 1
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 3
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 6
+        },
+        {
+          "value": 0.2,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 12
+        },
+        {
+          "value": 2.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 24
+        }
+      ],
+      "status": "BELOW WARNING LEVEL",
+      "station": 167
+    },
+    {
+      "id": 26866187,
+      "createdOn": "2026-07-12T04:00:13.539312+05:45",
+      "title": "Rampur_AWS",
+      "basin": "Narayani",
+      "measuredOn": "2026-07-12T04:00:13.522472+05:45",
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          84.34852,
+          27.654593
+        ]
+      },
+      "averages": [
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 1
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 3
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 6
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 12
+        },
+        {
+          "value": 2.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 24
+        }
+      ],
+      "status": "BELOW WARNING LEVEL",
+      "station": 167
+    },
+    {
+      "id": 26866510,
+      "createdOn": "2026-07-12T05:00:13.944392+05:45",
+      "title": "Rampur_AWS",
+      "basin": "Narayani",
+      "measuredOn": "2026-07-12T05:00:13.927238+05:45",
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          84.34852,
+          27.654593
+        ]
+      },
+      "averages": [
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 1
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 3
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 6
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 12
+        },
+        {
+          "value": 2.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 24
+        }
+      ],
+      "status": "BELOW WARNING LEVEL",
+      "station": 167
+    },
+    {
+      "id": 26866829,
+      "createdOn": "2026-07-12T06:00:13.664490+05:45",
+      "title": "Rampur_AWS",
+      "basin": "Narayani",
+      "measuredOn": "2026-07-12T06:00:13.647583+05:45",
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          84.34852,
+          27.654593
+        ]
+      },
+      "averages": [
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 1
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 3
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 6
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 12
+        },
+        {
+          "value": 2.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 24
+        }
+      ],
+      "status": "BELOW WARNING LEVEL",
+      "station": 167
+    },
+    {
+      "id": 26867148,
+      "createdOn": "2026-07-12T07:00:13.682182+05:45",
+      "title": "Rampur_AWS",
+      "basin": "Narayani",
+      "measuredOn": "2026-07-12T07:00:13.665051+05:45",
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          84.34852,
+          27.654593
+        ]
+      },
+      "averages": [
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 1
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 3
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 6
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 12
+        },
+        {
+          "value": 2.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 24
+        }
+      ],
+      "status": "BELOW WARNING LEVEL",
+      "station": 167
+    },
+    {
+      "id": 26867467,
+      "createdOn": "2026-07-12T08:00:14.287411+05:45",
+      "title": "Rampur_AWS",
+      "basin": "Narayani",
+      "measuredOn": "2026-07-12T08:00:14.270435+05:45",
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          84.34852,
+          27.654593
+        ]
+      },
+      "averages": [
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 1
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 3
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 6
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 12
+        },
+        {
+          "value": 2.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 24
+        }
+      ],
+      "status": "BELOW WARNING LEVEL",
+      "station": 167
+    },
+    {
+      "id": 26867786,
+      "createdOn": "2026-07-12T09:00:14.460805+05:45",
+      "title": "Rampur_AWS",
+      "basin": "Narayani",
+      "measuredOn": "2026-07-12T09:00:14.443813+05:45",
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          84.34852,
+          27.654593
+        ]
+      },
+      "averages": [
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 1
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 3
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 6
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 12
+        },
+        {
+          "value": 2.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 24
+        }
+      ],
+      "status": "BELOW WARNING LEVEL",
+      "station": 167
+    },
+    {
+      "id": 26868105,
+      "createdOn": "2026-07-12T10:00:13.569241+05:45",
+      "title": "Rampur_AWS",
+      "basin": "Narayani",
+      "measuredOn": "2026-07-12T10:00:13.552734+05:45",
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          84.34852,
+          27.654593
+        ]
+      },
+      "averages": [
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 1
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 3
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 6
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 12
+        },
+        {
+          "value": 1.8,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 24
+        }
+      ],
+      "status": "BELOW WARNING LEVEL",
+      "station": 167
+    },
+    {
+      "id": 26868424,
+      "createdOn": "2026-07-12T11:00:12.924720+05:45",
+      "title": "Rampur_AWS",
+      "basin": "Narayani",
+      "measuredOn": "2026-07-12T11:00:12.907842+05:45",
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          84.34852,
+          27.654593
+        ]
+      },
+      "averages": [
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 1
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 3
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 6
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 12
+        },
+        {
+          "value": 1.8,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 24
+        }
+      ],
+      "status": "BELOW WARNING LEVEL",
+      "station": 167
+    },
+    {
+      "id": 26868743,
+      "createdOn": "2026-07-12T12:00:13.003057+05:45",
+      "title": "Rampur_AWS",
+      "basin": "Narayani",
+      "measuredOn": "2026-07-12T12:00:12.984025+05:45",
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          84.34852,
+          27.654593
+        ]
+      },
+      "averages": [
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 1
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 3
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 6
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 12
+        },
+        {
+          "value": 1.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 24
+        }
+      ],
+      "status": "BELOW WARNING LEVEL",
+      "station": 167
+    },
+    {
+      "id": 26869064,
+      "createdOn": "2026-07-12T13:00:13.710569+05:45",
+      "title": "Rampur_AWS",
+      "basin": "Narayani",
+      "measuredOn": "2026-07-12T13:00:13.693367+05:45",
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          84.34852,
+          27.654593
+        ]
+      },
+      "averages": [
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 1
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 3
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 6
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 12
+        },
+        {
+          "value": 1.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 24
+        }
+      ],
+      "status": "BELOW WARNING LEVEL",
+      "station": 167
+    },
+    {
+      "id": 26869385,
+      "createdOn": "2026-07-12T14:00:13.457967+05:45",
+      "title": "Rampur_AWS",
+      "basin": "Narayani",
+      "measuredOn": "2026-07-12T14:00:13.441185+05:45",
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          84.34852,
+          27.654593
+        ]
+      },
+      "averages": [
+        {
+          "value": 2.4,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 1
+        },
+        {
+          "value": 2.4,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 3
+        },
+        {
+          "value": 2.4,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 6
+        },
+        {
+          "value": 2.4,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 12
+        },
+        {
+          "value": 4,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 24
+        }
+      ],
+      "status": "BELOW WARNING LEVEL",
+      "station": 167
+    },
+    {
+      "id": 26869706,
+      "createdOn": "2026-07-12T15:00:13.726656+05:45",
+      "title": "Rampur_AWS",
+      "basin": "Narayani",
+      "measuredOn": "2026-07-12T15:00:13.709590+05:45",
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          84.34852,
+          27.654593
+        ]
+      },
+      "averages": [
+        {
+          "value": 0.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 1
+        },
+        {
+          "value": 3.4,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 3
+        },
+        {
+          "value": 3.4,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 6
+        },
+        {
+          "value": 3.4,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 12
+        },
+        {
+          "value": 3.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 24
+        }
+      ],
+      "status": "BELOW WARNING LEVEL",
+      "station": 167
+    },
+    {
+      "id": 26870028,
+      "createdOn": "2026-07-12T16:00:13.690489+05:45",
+      "title": "Rampur_AWS",
+      "basin": "Narayani",
+      "measuredOn": "2026-07-12T16:00:13.673880+05:45",
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          84.34852,
+          27.654593
+        ]
+      },
+      "averages": [
+        {
+          "value": 1.8,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 1
+        },
+        {
+          "value": 5.2,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 3
+        },
+        {
+          "value": 5.2,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 6
+        },
+        {
+          "value": 5.2,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 12
+        },
+        {
+          "value": 5.2,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 24
+        }
+      ],
+      "status": "BELOW WARNING LEVEL",
+      "station": 167
+    },
+    {
+      "id": 26870350,
+      "createdOn": "2026-07-12T17:00:13.196092+05:45",
+      "title": "Rampur_AWS",
+      "basin": "Narayani",
+      "measuredOn": "2026-07-12T17:00:13.179172+05:45",
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          84.34852,
+          27.654593
+        ]
+      },
+      "averages": [
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 1
+        },
+        {
+          "value": 2.4,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 3
+        },
+        {
+          "value": 5.2,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 6
+        },
+        {
+          "value": 5.2,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 12
+        },
+        {
+          "value": 5.2,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 24
+        }
+      ],
+      "status": "BELOW WARNING LEVEL",
+      "station": 167
+    },
+    {
+      "id": 26870672,
+      "createdOn": "2026-07-12T18:00:14.144736+05:45",
+      "title": "Rampur_AWS",
+      "basin": "Narayani",
+      "measuredOn": "2026-07-12T18:00:14.127788+05:45",
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          84.34852,
+          27.654593
+        ]
+      },
+      "averages": [
+        {
+          "value": 0.4,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 1
+        },
+        {
+          "value": 2.2,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 3
+        },
+        {
+          "value": 5.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 6
+        },
+        {
+          "value": 5.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 12
+        },
+        {
+          "value": 5.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 24
+        }
+      ],
+      "status": "BELOW WARNING LEVEL",
+      "station": 167
+    },
+    {
+      "id": 26870994,
+      "createdOn": "2026-07-12T19:00:14.279715+05:45",
+      "title": "Rampur_AWS",
+      "basin": "Narayani",
+      "measuredOn": "2026-07-12T19:00:14.263630+05:45",
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          84.34852,
+          27.654593
+        ]
+      },
+      "averages": [
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 1
+        },
+        {
+          "value": 0.4,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 3
+        },
+        {
+          "value": 5.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 6
+        },
+        {
+          "value": 5.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 12
+        },
+        {
+          "value": 5.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 24
+        }
+      ],
+      "status": "BELOW WARNING LEVEL",
+      "station": 167
+    },
+    {
+      "id": 26871316,
+      "createdOn": "2026-07-12T20:00:14.495057+05:45",
+      "title": "Rampur_AWS",
+      "basin": "Narayani",
+      "measuredOn": "2026-07-12T20:00:14.478814+05:45",
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          84.34852,
+          27.654593
+        ]
+      },
+      "averages": [
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 1
+        },
+        {
+          "value": 0.4,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 3
+        },
+        {
+          "value": 2.8,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 6
+        },
+        {
+          "value": 5.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 12
+        },
+        {
+          "value": 5.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 24
+        }
+      ],
+      "status": "BELOW WARNING LEVEL",
+      "station": 167
+    },
+    {
+      "id": 26871638,
+      "createdOn": "2026-07-12T21:00:14.461731+05:45",
+      "title": "Rampur_AWS",
+      "basin": "Narayani",
+      "measuredOn": "2026-07-12T21:00:14.444909+05:45",
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          84.34852,
+          27.654593
+        ]
+      },
+      "averages": [
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 1
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 3
+        },
+        {
+          "value": 2.2,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 6
+        },
+        {
+          "value": 5.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 12
+        },
+        {
+          "value": 5.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 24
+        }
+      ],
+      "status": "BELOW WARNING LEVEL",
+      "station": 167
+    },
+    {
+      "id": 26871960,
+      "createdOn": "2026-07-12T22:00:14.120406+05:45",
+      "title": "Rampur_AWS",
+      "basin": "Narayani",
+      "measuredOn": "2026-07-12T22:00:14.103401+05:45",
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          84.34852,
+          27.654593
+        ]
+      },
+      "averages": [
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 1
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 3
+        },
+        {
+          "value": 0.4,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 6
+        },
+        {
+          "value": 5.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 12
+        },
+        {
+          "value": 5.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 24
+        }
+      ],
+      "status": "BELOW WARNING LEVEL",
+      "station": 167
+    },
+    {
+      "id": 26872282,
+      "createdOn": "2026-07-12T23:00:13.897436+05:45",
+      "title": "Rampur_AWS",
+      "basin": "Narayani",
+      "measuredOn": "2026-07-12T23:00:13.880816+05:45",
+      "point": {
+        "type": "Point",
+        "coordinates": [
+          84.34852,
+          27.654593
+        ]
+      },
+      "averages": [
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 1
+        },
+        {
+          "value": 0,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 3
+        },
+        {
+          "value": 0.4,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 6
+        },
+        {
+          "value": 5.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 12
+        },
+        {
+          "value": 5.6,
+          "status": {
+            "danger": false,
+            "warning": false
+          },
+          "interval": 24
+        }
+      ],
+      "status": "BELOW WARNING LEVEL",
+      "station": 167
+    }
+  ]
+}

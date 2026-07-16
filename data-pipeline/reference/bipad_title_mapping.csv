@@ -1,0 +1,12 @@
+station_id,station_name,matched_bipad_title,matched_bipad_station_id,match_distance_km
+902,Rampur,Rampur_AWS,167,0.23
+903,Jhuwani,Bharatpur Airport,113,12.86
+927,Bharatpur,Narayani Field Office,280,1.39
+928,Shanktikhor,Shaktikhor,282,0.0
+931,Meghauli,Meghauli,622,0.0
+932,Kalyanpur Madi,Kalyanpur,297,4.81
+935,Majhimtar,Shaktikhor,282,15.09
+936,Riukhola (Bankatta),Kalyanpur,297,8.12
+937,Charchare,Kalyanpur,297,5.47
+938,Gobindabasti,Govindabasti,319,0.0
+BhrtAP,Bharatpur Airport,Narayani Field Office,280,0.53
