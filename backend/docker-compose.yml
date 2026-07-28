@@ -1,0 +1,53 @@
+services:
+  backend:
+    build:
+      context: .
+    container_name: flood-risk-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      # Model weights are mounted, not baked into the image (see Dockerfile) --
+      # model_random_forest.joblib alone is ~824MB, so this keeps builds/pushes
+      # fast. Requires models/*.joblib to exist on the host at this path.
+      - ./models:/app/models:ro
+    restart: unless-stopped
+    environment:
+      # No `=value` on purpose: Compose passes this through from the shell
+      # `docker compose` is invoked in ONLY if it's set there, and omits it
+      # entirely from the container otherwise -- so a plain `docker compose up`
+      # (no MySQL) still gets no DATABASE_URL at all, and app/db/session.py's
+      # own os.environ.get(..., sqlite-default) applies normally. To run
+      # against the `mysql` service below, export DATABASE_URL in your shell
+      # first, e.g.:
+      #   export DATABASE_URL="mysql+pymysql://flood_user:flood_pass@mysql/flood_risk"
+      #   docker compose --profile mysql up -d
+      # (a dedicated backend/.env.mysql + `--env-file .env.mysql` works too and
+      # avoids the export -- see DATABASE_LAYER_FRONTEND_PROMPT.md)
+      - DATABASE_URL
+
+  # Proposal Table 1.1 target DB. Not started by a plain `docker compose up`
+  # (behind the "mysql" profile) -- start explicitly with
+  # `docker compose --profile mysql up` when you want the MySQL path.
+  # Live-verified end-to-end 2026-08-07: migrated via `alembic upgrade head`
+  # (Context impl MySQLImpl, not SQLiteImpl), then a real POST /api/predict
+  # write was confirmed readable both via GET /api/history/predictions and a
+  # direct `SHOW TABLES` / row-count query against MySQL itself. Needs
+  # `cryptography` installed (see requirements.txt) for MySQL 8's default
+  # caching_sha2_password auth plugin.
+  mysql:
+    image: mysql:8.0
+    container_name: flood-risk-mysql
+    profiles: ["mysql"]
+    environment:
+      - MYSQL_DATABASE=flood_risk
+      - MYSQL_USER=flood_user
+      - MYSQL_PASSWORD=flood_pass
+      - MYSQL_ROOT_PASSWORD=flood_root_pass
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    restart: unless-stopped
+
+volumes:
+  mysql_data:

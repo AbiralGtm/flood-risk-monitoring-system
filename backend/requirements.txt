@@ -1,0 +1,43 @@
+fastapi==0.116.1
+uvicorn[standard]==0.35.0
+
+# ML model serving
+# scikit-learn MUST match (or exceed) the version the .joblib models were
+# trained with (1.9.0, requires Python >=3.11) -- your .venv is Python 3.13
+# so this is fine there. An older scikit-learn (e.g. 1.7.x, the newest
+# available under Python 3.10) fails on LogisticRegression.predict_proba
+# with "'LogisticRegression' object has no attribute 'multi_class'" because
+# that internal attribute was removed in the version these models were
+# pickled with.
+scikit-learn==1.9.0
+xgboost==3.2.0
+joblib==1.5.3
+pandas==2.3.3
+numpy==2.2.6
+
+# Affected-area dissolve
+geopandas==1.0.1
+shapely==2.0.6
+
+# Live BIPAD conditions fetch
+requests==2.32.3
+
+# Database layer (history tables: rainfall/river-level/forecast/prediction/
+# risk-result logs). Defaults to SQLite, no extra driver needed.
+SQLAlchemy==2.0.51
+alembic==1.19.0
+
+# MySQL driver -- for the proposal's eventual MySQL target (Table 1.1).
+# Only takes effect when DATABASE_URL is set to a mysql+pymysql://... URL
+# (see app/db/session.py); harmless to install even when running on the
+# SQLite default. Live-verified end-to-end 2026-08-07 (docker compose
+# --profile mysql, alembic upgrade head, a real write + read through the API,
+# confirmed directly in MySQL) -- see the status report's issue log.
+PyMySQL==1.1.1
+
+# Required by PyMySQL for MySQL 8's default auth plugin (caching_sha2_password),
+# which does an RSA key exchange when not using SSL -- without this, connecting
+# fails with "'cryptography' package is required for sha256_password or
+# caching_sha2_password auth methods" (found verifying the MySQL path end-to-end).
+cryptography==43.0.3
+
