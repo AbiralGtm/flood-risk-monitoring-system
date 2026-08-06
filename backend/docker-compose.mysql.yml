@@ -1,0 +1,25 @@
+# Override file for testing the MySQL path (proposal Table 1.1 target DB) --
+# kept separate from docker-compose.yml rather than editing that file's
+# `backend` service directly, because a hardcoded `depends_on: [mysql]` there
+# would break the plain `docker compose up` (SQLite default) workflow: Compose
+# refuses to start a service whose dependency belongs to a profile that isn't
+# active. This file only takes effect when explicitly layered on top.
+#
+# Usage:
+#   docker compose -f docker-compose.yml -f docker-compose.mysql.yml --profile mysql up -d --build
+#   docker compose exec backend alembic upgrade head   # or `alembic stamp head`
+#                                                       # if the tables already
+#                                                       # exist from create_all()
+#                                                       # running at startup --
+#                                                       # see app/main.py's
+#                                                       # startup event.
+#
+# To go back to the SQLite default afterward, just use the base file alone:
+#   docker compose up -d
+
+services:
+  backend:
+    environment:
+      - DATABASE_URL=mysql+pymysql://flood_user:flood_pass@mysql/flood_risk
+    depends_on:
+      - mysql
