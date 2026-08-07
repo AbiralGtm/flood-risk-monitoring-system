@@ -1,0 +1,42 @@
+{
+  "computed_at": "2026-08-07T11:03:44.025943+00:00",
+  "elapsed_seconds": 107.1,
+  "model_id": "xgboost",
+  "dataset_path": "dataset/ml_training_dataset_v2.csv",
+  "methodology_note": "combined_all_historical_rows is the headline number per project-owner instruction, but includes ~96% formula-reconstructed flood_label rows (label_source == 'reconstructed'), which is somewhat circular against a model trained on similar features/thresholds. historical_evidence_override_only is the methodologically clean subset (independently-evidenced flood_label) -- see this module's docstring.",
+  "results": {
+    "combined_all_historical_rows": {
+      "row_count": 1703800,
+      "event_count": 700,
+      "true_positive": 234671,
+      "false_positive": 6192,
+      "false_negative": 46525,
+      "true_negative": 1416412,
+      "intersection_over_union": 0.8166,
+      "precision": 0.9743,
+      "recall": 0.8345
+    },
+    "historical_evidence_override_only": {
+      "row_count": 73020,
+      "event_count": 30,
+      "true_positive": 17313,
+      "false_positive": 168,
+      "false_negative": 42182,
+      "true_negative": 13357,
+      "intersection_over_union": 0.2902,
+      "precision": 0.9904,
+      "recall": 0.291
+    },
+    "reconstructed_only": {
+      "row_count": 1630780,
+      "event_count": 670,
+      "true_positive": 217358,
+      "false_positive": 6024,
+      "false_negative": 4343,
+      "true_negative": 1403055,
+      "intersection_over_union": 0.9545,
+      "precision": 0.973,
+      "recall": 0.9804
+    }
+  }
+}
