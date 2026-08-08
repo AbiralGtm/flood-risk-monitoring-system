@@ -1,0 +1,17 @@
+{
+  "computed_at": "2026-08-08T11:38:05.882806+00:00",
+  "elapsed_seconds": 24.8,
+  "models_evaluated": [
+    "xgboost_tuned",
+    "xgboost",
+    "random_forest",
+    "logreg"
+  ],
+  "dataset_path": "dataset/ml_training_dataset_v2.csv",
+  "dataset_row_count": 2589288,
+  "train_row_count": 2328850,
+  "val_row_count": 172814,
+  "test_row_count": 87624,
+  "test_rows_with_nan_river_level_score": 22070,
+  "river_level_score_fill_value": 0.3
+}
